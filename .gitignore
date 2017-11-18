@@ -26,3 +26,4 @@ gradle_user_home/wrapper/dists/
 gradle_user_home/daemon/
 gradle_user_home/native/25/windows-amd64/native-platform.dll.lock
 *.lock
+build/
