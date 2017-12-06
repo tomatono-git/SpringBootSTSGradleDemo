@@ -20,6 +20,7 @@ public class Neo4jConfiguration {
 
     @Bean
     public Neo4jTransactionManager transactionManager() {
-        return new Neo4jTransactionManager(sessionFactory());
+    	SessionFactory factory = this.sessionFactory();
+        return new Neo4jTransactionManager(factory);
     }
 }
