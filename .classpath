@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry path="bin" kind="output"/>
-	<classpathentry kind="src" path="src/main/java"/>
-	<classpathentry kind="src" path="src/main/resources"/>
-	<classpathentry kind="src" path="src/test/java"/>
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
 	<classpathentry kind="con" path="org.springsource.ide.eclipse.gradle.classpathcontainer"/>
+	<classpathentry output="build/classes/main" kind="src" path="src/main/java"/>
+	<classpathentry output="build/resources/main" kind="src" path="src/main/resources"/>
+	<classpathentry output="build/classes/test" kind="src" path="src/test/java"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8/"/>
 	<classpathentry sourcepath="GRADLE_USER_HOME/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-aop/1.5.8.RELEASE/19a2d3ff658f30ac5a7d7d6037aea94ed7cd0209/spring-boot-starter-aop-1.5.8.RELEASE-sources.jar" kind="var" path="GRADLE_USER_HOME/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-aop/1.5.8.RELEASE/9bc9a40e0718726ed48f6becc509b2d186f1ebcc/spring-boot-starter-aop-1.5.8.RELEASE.jar">
 		<attributes>
@@ -43,6 +42,11 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry sourcepath="GRADLE_USER_HOME/caches/modules-2/files-2.1/org.neo4j/neo4j-jdbc-driver/3.1.0/e4f1bab86f63709298ca100d3bed4296626bb453/neo4j-jdbc-driver-3.1.0-sources.jar" kind="var" path="GRADLE_USER_HOME/caches/modules-2/files-2.1/org.neo4j/neo4j-jdbc-driver/3.1.0/68c02b7dbf44af7cf0b6a52d7e426e5d8ea6ece9/neo4j-jdbc-driver-3.1.0.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="GRADLE_USER_HOME/caches/modules-2/files-2.1/org.springframework/spring-jdbc/5.0.1.RELEASE/3b57d6cc5d92481d28ef4e9312fc0e9a27b208f7/spring-jdbc-5.0.1.RELEASE-sources.jar" kind="var" path="GRADLE_USER_HOME/caches/modules-2/files-2.1/org.springframework/spring-jdbc/5.0.1.RELEASE/458a3369b61b443f5720b10d2658665dc1ade2a5/spring-jdbc-5.0.1.RELEASE.jar">
 		<attributes>
 			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
 		</attributes>
@@ -92,6 +96,21 @@
 			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry sourcepath="GRADLE_USER_HOME/caches/modules-2/files-2.1/org.springframework/spring-beans/4.3.12.RELEASE/afe9285e063739083bc9ea986731901f9a216fce/spring-beans-4.3.12.RELEASE-sources.jar" kind="var" path="GRADLE_USER_HOME/caches/modules-2/files-2.1/org.springframework/spring-beans/4.3.12.RELEASE/547dd432d47d0f01d9ccbedc4b705f9f7c1240a/spring-beans-4.3.12.RELEASE.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="GRADLE_USER_HOME/caches/modules-2/files-2.1/org.springframework/spring-core/4.3.12.RELEASE/2106c4c25ad9f0021109c2087d4c39b71ddcc6f4/spring-core-4.3.12.RELEASE-sources.jar" kind="var" path="GRADLE_USER_HOME/caches/modules-2/files-2.1/org.springframework/spring-core/4.3.12.RELEASE/4cebc69478c6d350dbd5af28e3db7d5694f416e3/spring-core-4.3.12.RELEASE.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="GRADLE_USER_HOME/caches/modules-2/files-2.1/org.springframework/spring-tx/4.3.12.RELEASE/bda5ae239af72b9733e4f3c5b7e5b19c4dbcc857/spring-tx-4.3.12.RELEASE-sources.jar" kind="var" path="GRADLE_USER_HOME/caches/modules-2/files-2.1/org.springframework/spring-tx/4.3.12.RELEASE/7147b6839b2bf9db3621b79c73b4dddbe69572b6/spring-tx-4.3.12.RELEASE.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry sourcepath="GRADLE_USER_HOME/caches/modules-2/files-2.1/org.springframework.boot/spring-boot/1.5.8.RELEASE/ec6a9e43b8452d4e66ed0233fd62fa3fd91c0625/spring-boot-1.5.8.RELEASE-sources.jar" kind="var" path="GRADLE_USER_HOME/caches/modules-2/files-2.1/org.springframework.boot/spring-boot/1.5.8.RELEASE/748ebde51761e12627ad23d064024f342b18f9b4/spring-boot-1.5.8.RELEASE.jar">
 		<attributes>
 			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
@@ -107,22 +126,7 @@
 			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry sourcepath="GRADLE_USER_HOME/caches/modules-2/files-2.1/org.springframework/spring-core/4.3.12.RELEASE/2106c4c25ad9f0021109c2087d4c39b71ddcc6f4/spring-core-4.3.12.RELEASE-sources.jar" kind="var" path="GRADLE_USER_HOME/caches/modules-2/files-2.1/org.springframework/spring-core/4.3.12.RELEASE/4cebc69478c6d350dbd5af28e3db7d5694f416e3/spring-core-4.3.12.RELEASE.jar">
-		<attributes>
-			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
-		</attributes>
-	</classpathentry>
 	<classpathentry sourcepath="GRADLE_USER_HOME/caches/modules-2/files-2.1/org.yaml/snakeyaml/1.17/63577e87886c76228db9f8a2c50ea43cde5072eb/snakeyaml-1.17-sources.jar" kind="var" path="GRADLE_USER_HOME/caches/modules-2/files-2.1/org.yaml/snakeyaml/1.17/7a27ea250c5130b2922b86dea63cbb1cc10a660c/snakeyaml-1.17.jar">
-		<attributes>
-			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry sourcepath="GRADLE_USER_HOME/caches/modules-2/files-2.1/org.springframework/spring-beans/4.3.12.RELEASE/afe9285e063739083bc9ea986731901f9a216fce/spring-beans-4.3.12.RELEASE-sources.jar" kind="var" path="GRADLE_USER_HOME/caches/modules-2/files-2.1/org.springframework/spring-beans/4.3.12.RELEASE/547dd432d47d0f01d9ccbedc4b705f9f7c1240a/spring-beans-4.3.12.RELEASE.jar">
-		<attributes>
-			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry sourcepath="GRADLE_USER_HOME/caches/modules-2/files-2.1/org.springframework/spring-tx/4.3.12.RELEASE/bda5ae239af72b9733e4f3c5b7e5b19c4dbcc857/spring-tx-4.3.12.RELEASE-sources.jar" kind="var" path="GRADLE_USER_HOME/caches/modules-2/files-2.1/org.springframework/spring-tx/4.3.12.RELEASE/7147b6839b2bf9db3621b79c73b4dddbe69572b6/spring-tx-4.3.12.RELEASE.jar">
 		<attributes>
 			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
 		</attributes>
