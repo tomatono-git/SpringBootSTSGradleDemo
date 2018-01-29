@@ -57,10 +57,12 @@ dependencies {
 	compile('com.fasterxml.jackson.core:jackson-databind:2.7.4')
 	compile('com.fasterxml.jackson.core:jackson-annotations:2.7.4')
 
+	compile('com.h2database:h2:1.4.196')
+
 	compile group: 'org.neo4j', name: 'neo4j-jdbc-driver', version: '3.1.0'
 
 	// https://mvnrepository.com/artifact/org.springframework/spring-jdbc
-	compile group: 'org.springframework', name: 'spring-jdbc', version: '5.0.1.RELEASE'
+	compile group: 'org.springframework', name: 'spring-jdbc'
 
 
 	runtime('org.springframework.boot:spring-boot-devtools')
@@ -75,7 +77,8 @@ dependencies {
 
 
 task wrapper(type: Wrapper) {
-    gradleVersion = '3.5.1'
+	description 'Gradle Wrapper'
+    gradleVersion = '4.5'
 }
 
 
